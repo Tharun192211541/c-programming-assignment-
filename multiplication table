@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main ()
+{
+	printf("reg.no:192211541");
+	int i,n=10,mul,j;
+	printf("enter the number");
+	scanf("%d",&j);
+	for (i=1;i<=n;i++)
+	{
+	
+	mul=j*i;
+	printf("\n%d*%d=%d",j,n,mul);
+}
+	return 0;
+	
+}
