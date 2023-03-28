@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+	printf("reg.no:192211541");
+	int i,n;
+	int t1=0, t2=1;
+	int next_term =t1+t2;
+	printf("enter the numebr of terms:");
+	scanf("%d",&n);
+	printf("Fabinoic series:%d,%d,", t1,t2);
+	for (i=3;i<=n;i++)
+	{
+		printf("%d,", next_term );
+		t1=t2;
+		t2=next_term;
+		next_term=t1+t2;
+	}
+	return 0;
+}
